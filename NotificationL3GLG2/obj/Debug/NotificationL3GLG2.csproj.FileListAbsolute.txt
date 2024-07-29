@@ -1,0 +1,9 @@
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\NotificationL3GLG2\bin\Debug\NotificationL3GLG2.exe.config
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\NotificationL3GLG2\bin\Debug\NotificationL3GLG2.exe
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\NotificationL3GLG2\bin\Debug\NotificationL3GLG2.pdb
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\NotificationL3GLG2\obj\Debug\NotificationL3GLG2.csproj.AssemblyReference.cache
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\NotificationL3GLG2\obj\Debug\NotificationL3GLG2.csproj.CoreCompileInputs.cache
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\NotificationL3GLG2\obj\Debug\NotificationL3GLG2.exe
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\NotificationL3GLG2\obj\Debug\NotificationL3GLG2.pdb
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\NotificationL3GLG2\obj\Debug\NotificationL3GLG2.ProjectInstaller.resources
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\NotificationL3GLG2\obj\Debug\NotificationL3GLG2.csproj.GenerateResource.cache

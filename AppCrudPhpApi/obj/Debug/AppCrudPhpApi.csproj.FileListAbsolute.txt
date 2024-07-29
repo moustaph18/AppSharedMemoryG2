@@ -1,0 +1,13 @@
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\AppCrudPhpApi\obj\Debug\AppCrudPhpApi.csproj.AssemblyReference.cache
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\AppCrudPhpApi\obj\Debug\ApplicationSharedMemory.frmCategoriePhp.resources
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\AppCrudPhpApi\obj\Debug\AppCrudPhpApi.Properties.Resources.resources
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\AppCrudPhpApi\obj\Debug\AppCrudPhpApi.csproj.GenerateResource.cache
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\AppCrudPhpApi\obj\Debug\AppCrudPhpApi.csproj.CoreCompileInputs.cache
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\AppCrudPhpApi\bin\Debug\AppCrudPhpApi.exe.config
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\AppCrudPhpApi\bin\Debug\AppCrudPhpApi.exe
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\AppCrudPhpApi\bin\Debug\AppCrudPhpApi.pdb
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\AppCrudPhpApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\AppCrudPhpApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\AppCrudPhpApi\obj\Debug\AppCrudPhpApi.csproj.CopyComplete
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\AppCrudPhpApi\obj\Debug\AppCrudPhpApi.exe
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\AppCrudPhpApi\obj\Debug\AppCrudPhpApi.pdb

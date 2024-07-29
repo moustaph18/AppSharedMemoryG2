@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:55445/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:55445/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:55445/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MetierSharedMemory" />
+      <xsd:import schemaLocation="http://localhost:55445/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/MetierSharedMemory.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AjoutEncadreur_InputMessage">
+    <wsdl:part name="parameters" element="tns:AjoutEncadreur" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AjoutEncadreur_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AjoutEncadreurResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_encadreurById_InputMessage">
+    <wsdl:part name="parameters" element="tns:encadreurById" />
+  </wsdl:message>
+  <wsdl:message name="IService1_encadreurById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:encadreurByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModifierEncadreur_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifierEncadreur" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModifierEncadreur_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifierEncadreurResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SupprimerEncadreur_InputMessage">
+    <wsdl:part name="parameters" element="tns:SupprimerEncadreur" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SupprimerEncadreur_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SupprimerEncadreurResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListEncadreur_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListEncadreur" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListEncadreur_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListEncadreurResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListEncadreurs_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListEncadreurs" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListEncadreurs_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListEncadreursResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ChargementComboBox_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChargementComboBox" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ChargementComboBox_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChargementComboBoxResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AjoutMemoire_InputMessage">
+    <wsdl:part name="parameters" element="tns:AjoutMemoire" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AjoutMemoire_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AjoutMemoireResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModifierMemoire_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifierMemoire" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ModifierMemoire_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifierMemoireResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SupprimerMemoire_InputMessage">
+    <wsdl:part name="parameters" element="tns:SupprimerMemoire" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SupprimerMemoire_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SupprimerMemoireResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListMemoires_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListMemoires" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListMemoires_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListMemoiresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_MemoireById_InputMessage">
+    <wsdl:part name="parameters" element="tns:MemoireById" />
+  </wsdl:message>
+  <wsdl:message name="IService1_MemoireById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MemoireByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListMemorieParCh_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListMemorieParCh" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListMemorieParCh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListMemorieParChResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetMemoireViewModels_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMemoireViewModels" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetMemoireViewModels_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMemoireViewModelsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AjoutEncadreur">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AjoutEncadreur" message="tns:IService1_AjoutEncadreur_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AjoutEncadreurResponse" message="tns:IService1_AjoutEncadreur_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="encadreurById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/encadreurById" message="tns:IService1_encadreurById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/encadreurByIdResponse" message="tns:IService1_encadreurById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifierEncadreur">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModifierEncadreur" message="tns:IService1_ModifierEncadreur_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModifierEncadreurResponse" message="tns:IService1_ModifierEncadreur_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SupprimerEncadreur">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SupprimerEncadreur" message="tns:IService1_SupprimerEncadreur_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SupprimerEncadreurResponse" message="tns:IService1_SupprimerEncadreur_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListEncadreur">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListEncadreur" message="tns:IService1_ListEncadreur_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListEncadreurResponse" message="tns:IService1_ListEncadreur_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListEncadreurs">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListEncadreurs" message="tns:IService1_ListEncadreurs_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListEncadreursResponse" message="tns:IService1_ListEncadreurs_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChargementComboBox">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ChargementComboBox" message="tns:IService1_ChargementComboBox_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ChargementComboBoxResponse" message="tns:IService1_ChargementComboBox_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AjoutMemoire">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AjoutMemoire" message="tns:IService1_AjoutMemoire_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AjoutMemoireResponse" message="tns:IService1_AjoutMemoire_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifierMemoire">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ModifierMemoire" message="tns:IService1_ModifierMemoire_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ModifierMemoireResponse" message="tns:IService1_ModifierMemoire_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SupprimerMemoire">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SupprimerMemoire" message="tns:IService1_SupprimerMemoire_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SupprimerMemoireResponse" message="tns:IService1_SupprimerMemoire_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListMemoires">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListMemoires" message="tns:IService1_ListMemoires_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListMemoiresResponse" message="tns:IService1_ListMemoires_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MemoireById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/MemoireById" message="tns:IService1_MemoireById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/MemoireByIdResponse" message="tns:IService1_MemoireById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListMemorieParCh">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListMemorieParCh" message="tns:IService1_ListMemorieParCh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListMemorieParChResponse" message="tns:IService1_ListMemorieParCh_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMemoireViewModels">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetMemoireViewModels" message="tns:IService1_GetMemoireViewModels_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetMemoireViewModelsResponse" message="tns:IService1_GetMemoireViewModels_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AjoutEncadreur">
+      <soap:operation soapAction="http://tempuri.org/IService1/AjoutEncadreur" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="encadreurById">
+      <soap:operation soapAction="http://tempuri.org/IService1/encadreurById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifierEncadreur">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModifierEncadreur" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SupprimerEncadreur">
+      <soap:operation soapAction="http://tempuri.org/IService1/SupprimerEncadreur" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListEncadreur">
+      <soap:operation soapAction="http://tempuri.org/IService1/ListEncadreur" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListEncadreurs">
+      <soap:operation soapAction="http://tempuri.org/IService1/ListEncadreurs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChargementComboBox">
+      <soap:operation soapAction="http://tempuri.org/IService1/ChargementComboBox" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AjoutMemoire">
+      <soap:operation soapAction="http://tempuri.org/IService1/AjoutMemoire" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifierMemoire">
+      <soap:operation soapAction="http://tempuri.org/IService1/ModifierMemoire" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SupprimerMemoire">
+      <soap:operation soapAction="http://tempuri.org/IService1/SupprimerMemoire" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListMemoires">
+      <soap:operation soapAction="http://tempuri.org/IService1/ListMemoires" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MemoireById">
+      <soap:operation soapAction="http://tempuri.org/IService1/MemoireById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListMemorieParCh">
+      <soap:operation soapAction="http://tempuri.org/IService1/ListMemorieParCh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMemoireViewModels">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetMemoireViewModels" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:55445/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

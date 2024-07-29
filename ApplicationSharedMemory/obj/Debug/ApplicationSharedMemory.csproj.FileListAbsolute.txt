@@ -1,0 +1,17 @@
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\bin\Debug\ApplicationSharedMemory.exe.config
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\bin\Debug\ApplicationSharedMemory.exe
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\bin\Debug\ApplicationSharedMemory.pdb
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\obj\Debug\ApplicationSharedMemory.csproj.AssemblyReference.cache
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\obj\Debug\ApplicationSharedMemory.Properties.Resources.resources
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\obj\Debug\ApplicationSharedMemory.csproj.GenerateResource.cache
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\obj\Debug\ApplicationSharedMemory.csproj.CoreCompileInputs.cache
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\obj\Debug\ApplicationSharedMemory.exe
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\obj\Debug\ApplicationSharedMemory.pdb
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\obj\Debug\ApplicationSharedMemory.frmCategorie.resources
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\obj\Debug\ApplicationSharedMemory.csproj.CopyComplete
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\obj\Debug\ApplicationSharedMemory.Form1.resources
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\obj\Debug\ApplicationSharedMemory.frmMemoire.resources
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\obj\Debug\ApplicationSharedMemory.frmEncadreur.resources
+C:\Users\hp elitebook\source\repos\Group2SharedMemory\ApplicationSharedMemory\obj\Debug\ApplicationSharedMemory.Model.Resource1.resources
